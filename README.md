@@ -1,4 +1,5 @@
 # 信息安全数学教程讲义 (Mathematical Lecture Notes for Information Security)
+**作者**：Haijian Shao   
 
 本仓库是信息安全/密码学方向的核心数学基础讲义，覆盖离散代数、有限域、椭圆曲线、后量子密码四大核心板块，内容以 Beamer 幻灯片形式组织，兼顾理论严谨性与工业级实践指导，适配经典密码、工程实现、后量子密码三大学习路径。
 
@@ -92,9 +93,16 @@
 - LaTeX 编译器：支持 Beamer 的 PDFLaTeX/XeLaTeX（如 TeX Live、MikTeX）  
 - 必备宏包：`beamer`、`tikz`、`amsmath`、`amssymb`、`array`、`tabularx`、`pgfplots`  
 - 大整数运算验证：可使用 GMP 库（C/C++）、OpenSSL BIGNUM 接口或 Python `cryptography` 库  
-- 后量子密码验证：可使用 liboqs 库（Open Quantum Safe）  
+- 后量子密码验证：可使用 liboqs 库（Open Quantum Safe）
 
 ### 2. 学习路径建议
 - **经典密码路径**：同余 → 群 → 原根 → DLP → ECC  
 - **工程实现路径**：有限域 → 域扩张 → 椭圆曲线 → SM2  
 - **后量子密码路径**：线性代数 → 格 → SVP/CVP → LWE/RLWE
+
+## 📖 使用与引用
+
+如果本资料或其中内容对您的学习或研究有所帮助，欢迎参考并引用相关成果。
+
+👉 作者学术主页（Google Scholar）：  
+https://scholar.google.com/citations?user=d3mvChQAAAAJ&hl=en
